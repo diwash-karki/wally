@@ -23,7 +23,7 @@ class Homepage extends StatefulWidget {
 
 class _HomepageState extends State<Homepage> {
   TextEditingController searchController = TextEditingController();
-  final String secretCode = '34252948-a965ff4529f125939df545c17';
+  final String secretCode = 'your api code';
   Pixabay spalsh = Pixabay();
   bool isState = false;
   List<Map<String, dynamic>> images = [];
